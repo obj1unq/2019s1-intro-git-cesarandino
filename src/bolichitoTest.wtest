@@ -25,6 +25,7 @@ test "El material de la placa brilla" {
 }
 
 test "El bolichito es monocromático si tiene una remera y una placa roja" {
+	placa.setColor(rojo)
 	bolichito.ponerEnMostrador(remera)
 	bolichito.ponerEnVidriera(placa)
 	
